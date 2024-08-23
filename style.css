@@ -6,16 +6,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+  background-image: url('https://cdn.glitch.global/70fbf7c2-e384-4df5-bf43-c181501ff88d/thumbnails%2Fphoto_2024-08-23_23-17-48.jpg?1724444325312');
+  background-size:  cover;
     margin: 0;
 }
 
 .container {
     background: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
     padding: 30px;
     max-width: 260px;
-  border: 2px solid black;
+
     width: 100%;
     text-align: center;
 }
@@ -36,15 +38,15 @@ h1 {
 .game-option {
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 10px;
-    text-align: center;
+     text-align: center;
     cursor: pointer;
+  background-color: #e5e5e58f;
     transition: transform 0.3s, border-color 0.3s;
 }
 
 .game-option img {
-    width: 100%;
-    border-radius: 8px;
+    width: 45px;
+    border-radius: 1500px;
     margin-bottom: 10px;
 }
 
