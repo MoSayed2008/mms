@@ -6,18 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  background-image: url('https://cdn.glitch.global/70fbf7c2-e384-4df5-bf43-c181501ff88d/thumbnails%2Fphoto_2024-08-23_23-17-48.jpg?1724444325312');
-  background-size:  cover;
     margin: 0;
 }
 
 .container {
-
+     background-color: #fbfdff;
     border-radius: 10px;
-
+    box-shadow: 0 4px 20px ;
     padding: 30px;
     max-width: 260px;
-
+ 
     width: 100%;
     text-align: center;
 }
@@ -37,7 +35,7 @@ h1 {
 
 .game-option {
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 10px 3px;
      text-align: center;
     cursor: pointer;
   background-color: #e5e5e58f;
@@ -45,7 +43,7 @@ h1 {
 }
 
 .game-option img {
-    width: 45px;
+    width: 40px;
     border-radius: 1500px;
     margin-bottom: 10px;
 }
@@ -94,13 +92,13 @@ label {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #007bff;
+    background: #00e0a1;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 .key-slider input[type="range"]:hover::-webkit-slider-thumb {
-    background: #0056b3;
+    background: #00e0a1;
 }
 
 #keyValue {
@@ -110,9 +108,9 @@ label {
 }
 
 button {
-    background-color: #007bff;
-    color: white;
-    border: none;
+    background-color: #d0e8ff;
+    color: #007bff;
+    border: 1px solid #007bff;
     padding: 12px 20px;
     font-size: 16px;
     border-radius: 8px;
@@ -122,7 +120,8 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
+  color: #fff;
 }
 
 .hidden {
