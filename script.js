@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+xxdocument.addEventListener('DOMContentLoaded', () => {
     const games = {
         1: {
             name: 'Riding Extreme 3D',
